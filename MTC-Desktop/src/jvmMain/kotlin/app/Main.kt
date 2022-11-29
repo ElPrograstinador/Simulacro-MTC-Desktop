@@ -22,7 +22,7 @@ fun main() = application {
     Window(
         resizable = false,
         state = WindowState(size = DpSize(1200.dp, 800.dp), position = WindowPosition(Alignment.Center)),
-        title = "Simulacro MTC",
+        title = "Balotario de preguntas MTC",
         onCloseRequest = ::exitApplication
     ) {
         App()
